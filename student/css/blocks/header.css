@@ -1,0 +1,6 @@
+.header__wrapper {
+  display: grid;
+  grid-template-columns: 1fr 204px 1fr;
+  align-items: center;
+  padding: 16px 50px;
+}
