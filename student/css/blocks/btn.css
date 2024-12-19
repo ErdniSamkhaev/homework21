@@ -5,6 +5,7 @@
   border: none;
   padding: 0;
   cursor: pointer;
+  margin: 0 20px 0 0;
 }
 
 .header__button-lang {
@@ -13,10 +14,6 @@
   line-height: 24px;
   text-transform: uppercase;
 }
-
-/* .header__button-save {
-  border: 1px solid #ffffff;
-} */
 
 .header__button-choice {
   border: 2px solid #ffffff;
