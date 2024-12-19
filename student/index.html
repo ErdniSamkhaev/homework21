@@ -12,8 +12,9 @@
     <header class="header">
       <div class="container">
         <div class="header__wrapper">
+          <!-- Левая часть шапки -->
           <div class="header__left">
-            <a class="header__icon-home" href="#">
+            <a class="header__icon-home" href="#" aria-label="Главная страница">
               <svg
                 width="28"
                 height="28"
@@ -28,10 +29,12 @@
                 />
               </svg>
             </a>
-            <a class="header__about-short-project" href="#">
+            <!-- Коротко о проекте -->
+            <a class="header__about-short-project" href="#" aria-label="Коротко о проекте">
               <span>Коротко о проекте</span>
             </a>
           </div>
+          <!-- Логотип -->
           <a
             class="header__logo"
             href="#"
@@ -145,24 +148,29 @@
               </defs>
             </svg>
           </a>
+          <!-- Правая часть шапки -->
           <div class="header__right">
-            <span>En</span>
-            <button class="header__button" type="button">
-              <svg
-                width="21"
-                height="28"
-                viewBox="0 0 21 28"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M19.6826 1H1V27L10.3413 22.9521L19.6826 27V1Z"
-                  stroke="white"
-                />
-              </svg>
-            </button>
-            <button class="header__button-save">Выбрать квартиру</button>
-            <a class="header__phone" href="tel:+74951812960">
+            <div class="header__rigt-button">
+              <button class="btn header__button-lang" type="button">En</button>
+              <button class="btn header__button-save" type="button">
+                <svg
+                  width="21"
+                  height="28"
+                  viewBox="0 0 21 28"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M19.6826 1H1V27L10.3413 22.9521L19.6826 27V1Z"
+                    stroke="white"
+                  />
+                </svg>
+              </button>
+              <button class=" btn header__button-choice" type="button" aria-label="Выбрать квартиру">
+                Выбрать квартиру
+              </button>
+            </div>
+            <a class="header__phone" href="tel:+74951812960" aria-label="Номер телефона">
               <span class="header__phone-text">+7 495 181 29 60</span>
             </a>
           </div>
