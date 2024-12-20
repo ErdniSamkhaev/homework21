@@ -1,4 +1,20 @@
 .about-project {
   display: flex;
   flex-direction: column;
+  background-image: url(../../images/картинка.jpg);
+  overflow: hidden;
+  height: 700px;
+  background-size: cover;
+  background-repeat: round;
+}
+
+
+.about-project__description {
+  font-family: "Montserrat", "Ardeco", serif;;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  width: 700px;
+  margin: 0 auto 32px;
 }
