@@ -14,7 +14,7 @@
         <div class="header__wrapper">
           <!-- Левая часть шапки -->
           <div class="header__left">
-            <a class="header__icon-home" href="#" aria-label="Главная страница">
+            <a class="header__link-icon" href="#" aria-label="Перейти на главную">
               <svg
                 width="28"
                 height="28"
@@ -30,19 +30,17 @@
               </svg>
             </a>
             <!-- Коротко о проекте -->
-            <a
-              class="header__about-short-project"
-              href="#"
-              aria-label="Коротко о проекте"
+            <div
+              class="header__subtitle"
             >
               <span>Коротко о проекте</span>
-            </a>
+            </div>
           </div>
           <!-- Логотип -->
           <a
             class="header__logo"
             href="#"
-            aria-label="Сайт клубного дома Чистые пруды"
+            aria-label="Перейти на главную"
           >
             <svg
               width="204"
@@ -154,9 +152,9 @@
           </a>
           <!-- Правая часть шапки -->
           <div class="header__right">
-            <div class="header__rigt-button">
-              <button class="btn header__button-lang" type="button">En</button>
-              <button class="btn header__button-save" type="button">
+            <div class="header__rigt-links">
+              <a class="header__right-lang" href="#" aria-label="Сменить язык">En</a>
+              <a class="header__right-save" href="#" aria-label="Сохранить">
                 <svg
                   width="21"
                   height="28"
@@ -169,14 +167,10 @@
                     stroke="white"
                   />
                 </svg>
-              </button>
-              <button
-                class="btn header__button-choice"
-                type="button"
-                aria-label="Выбрать квартиру"
-              >
+              </a>
+              <a class="header__right-choice" href="#">
                 Выбрать квартиру
-              </button>
+              </a>
             </div>
             <a
               class="header__phone"
@@ -283,18 +277,19 @@
             </svg>
           </div>
         </div>
-        <div class="apartments__about">
-          <h3 class="apartments__heading">подлинная красота</h3>
+      </section>
+      <!-- Подлинная красота -->
+      <section class="about-project">
+        <h2 class="visually-hidden">Вид сверху</h2>
+        <div class="about-project__apartments">
+          <h3 class="about-project__heading">подлинная красота</h3>
           <p class="about-project__description">
             Дом представляет собой исторический особняк начала прошлого века.
             Мы&nbsp;бережно восстанавливаем его сложный фасад, используя дорогие
             материалы.
           </p>
         </div>
-      </section>
-      <!-- Подлинная красота -->
-      <section class="about-project">
-        <h2 class="visually-hidden">Вид сверху</h2>
+        <img class="about-project__image" src="images/картинка.jpg" width="1440" height="700" alt="Вид сверху">
       </section>
 
       <!-- Тишина и приватность -->
@@ -334,7 +329,7 @@
               </li>
             </ul>
           </div>
-          <div class="benefit benefit--apartment benefit--round-all">
+          <div class="benefit benefit--apartment">
             <span class="benefit__number"> 50 </span>
             <span class="benefit__text"> метров до пруда </span>
             <svg

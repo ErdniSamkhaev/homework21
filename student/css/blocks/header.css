@@ -3,10 +3,10 @@
   grid-template-columns: 1fr 204px 1fr;
   align-items: center;
   justify-content: space-between;
-  padding: 16px 0 0;
+  padding: 16px 0 16px;
 }
 
-.header__about-short-project {
+.header__subtitle {
   font-size: 18px;
   font-weight: 400;
   line-height: 24px;
@@ -19,7 +19,7 @@
   margin: 0;
 }
 
-.header__icon-home {
+.header__link-icon {
   margin-right: 142px;
 }
 
@@ -29,9 +29,32 @@
   justify-content: space-between;
 }
 
-.header__rigt-button {
+.header__rigt-links {
   display: flex;
   margin-left: 126px;
+}
+
+.header__right-lang {
+  margin: auto 20px auto 0;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.header__right-save {
+  margin: auto 20px auto 0;
+  border: 1px solid #2A52A3;
+}
+
+.header__right-choice {
+  border: 2px solid #ffffff;
+  border-radius: 60px;
+  padding: 12px 20px;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16px;
+  margin: 0;
 }
 
 .header__phone {

@@ -10,7 +10,9 @@
 }
 
 .benefit--apartment {
-  background-image: url("../../images/image-apartment.jpg");
+  background-image: url(../../images/Rectangle\ 376714432.png);
+  padding: 0;
+  margin: 20px 0 0;
 }
 
 .benefit__number {
