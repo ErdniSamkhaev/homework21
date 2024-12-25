@@ -14,7 +14,11 @@
         <div class="header__wrapper">
           <!-- Левая часть шапки -->
           <div class="header__left">
-            <a class="header__link-icon" href="#" aria-label="Перейти на главную">
+            <a
+              class="header__link-icon"
+              href="#"
+              aria-label="Перейти на главную"
+            >
               <svg
                 width="28"
                 height="28"
@@ -30,18 +34,12 @@
               </svg>
             </a>
             <!-- Коротко о проекте -->
-            <div
-              class="header__subtitle"
-            >
+            <div class="header__subtitle">
               <span>Коротко о проекте</span>
             </div>
           </div>
           <!-- Логотип -->
-          <a
-            class="header__logo"
-            href="#"
-            aria-label="Перейти на главную"
-          >
+          <a class="header__logo" href="#" aria-label="Перейти на главную">
             <svg
               width="204"
               height="88"
@@ -153,7 +151,9 @@
           <!-- Правая часть шапки -->
           <div class="header__right">
             <div class="header__rigt-links">
-              <a class="header__right-lang" href="#" aria-label="Сменить язык">En</a>
+              <a class="header__right-lang" href="#" aria-label="Сменить язык"
+                >En</a
+              >
               <a class="header__right-save" href="#" aria-label="Сохранить">
                 <svg
                   width="21"
@@ -168,9 +168,7 @@
                   />
                 </svg>
               </a>
-              <a class="header__right-choice" href="#">
-                Выбрать квартиру
-              </a>
+              <a class="header__right-choice" href="#"> Выбрать квартиру </a>
             </div>
             <a
               class="header__phone"
@@ -252,7 +250,7 @@
               </li>
             </ul>
           </div>
-          <div class="benefit benefit--apartment benefit--round-all">
+          <div class="benefit benefit--apartment">
             <span class="benefit__number"> 34 </span>
             <span class="benefit__text"> Уникальные квартиры </span>
             <svg
@@ -289,7 +287,13 @@
             материалы.
           </p>
         </div>
-        <img class="about-project__image" src="images/картинка.jpg" width="1440" height="700" alt="Вид сверху">
+        <img
+          class="about-project__image"
+          src="images/картинка.jpg"
+          width="1440"
+          height="700"
+          alt="Вид сверху"
+        />
       </section>
 
       <!-- Тишина и приватность -->
@@ -298,6 +302,30 @@
           Подготовлены заранее обставленные мебелью квартиры со всеми удобствами
         </h2>
         <div class="apartments__wrapper">
+          <div class="benefit benefit--apartment">
+            <span class="benefit__number"> 50 </span>
+            <span class="benefit__text"> метров до пруда </span>
+            <svg
+              class="benefit__icon"
+              xmlns="http://www.w3.org/2000/svg"
+              width="60"
+              height="10"
+              fill="none"
+              aria-hidden="true"
+            >
+              <g clip-path="url(#a)">
+                <path
+                  fill="#fff"
+                  d="M60 3.807c-20.016 13.16-40.005-13.18-59.993 0-.01 2.618-.01-.215 0 2.384C20.005-6.98 40.002 19.38 60 6.19c0-2.619-.01.244 0-2.384Z"
+                />
+              </g>
+              <defs>
+                <clipPath id="a">
+                  <path fill="#fff" d="M0 0h60v10H0z" />
+                </clipPath>
+              </defs>
+            </svg>
+          </div>
           <div class="apartments__content">
             <h2 class="apartments__heading">Тишина и&nbsp;приватность</h2>
             <p class="apartments__description">
@@ -328,33 +356,24 @@
                 бесшумные лифты и&nbsp;оборудование.
               </li>
             </ul>
-          </div>
-          <div class="benefit benefit--apartment">
-            <span class="benefit__number"> 50 </span>
-            <span class="benefit__text"> метров до пруда </span>
-            <svg
-              class="benefit__icon"
-              xmlns="http://www.w3.org/2000/svg"
-              width="60"
-              height="10"
-              fill="none"
-              aria-hidden="true"
-            >
-              <g clip-path="url(#a)">
-                <path
-                  fill="#fff"
-                  d="M60 3.807c-20.016 13.16-40.005-13.18-59.993 0-.01 2.618-.01-.215 0 2.384C20.005-6.98 40.002 19.38 60 6.19c0-2.619-.01.244 0-2.384Z"
-                />
-              </g>
-              <defs>
-                <clipPath id="a">
-                  <path fill="#fff" d="M0 0h60v10H0z" />
-                </clipPath>
-              </defs>
-            </svg>
+            <div class="apartments__button-wrapper">
+              <button class="apartments__button" type="button">
+                <svg
+                  width="60"
+                  height="42"
+                  viewBox="0 0 60 42"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle cx="39" cy="21" r="19.5" stroke="white" />
+                  <path d="M39 16L44 21L39 26" stroke="white" />
+                  <path d="M44 21L2 21" stroke="white" />
+                </svg>
+              </button>
+              <span>Подробнее</span>
+            </div>
           </div>
         </div>
-        <button class="apartments__button" type="button">Подробнее</button>
       </section>
       <!-- Преимущества проекта -->
       <section class="advantages">
@@ -387,7 +406,7 @@
               </li>
             </ul>
           </div>
-          <div class="benefit benefit--apartment benefit--round-all">
+          <div class="benefit benefit--apartment">
             <span class="benefit__number"> 34 </span>
             <span class="benefit__text"> Уникальные квартиры </span>
             <svg
