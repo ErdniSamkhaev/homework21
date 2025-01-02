@@ -1,7 +1,6 @@
 .hero {
-  max-width: 1440px;
   margin: 0 auto;
-  padding: 48px 0 0;
+  padding: 45px 0 0;
 }
 
 .hero__heading {
@@ -17,6 +16,4 @@
 .hero__image {
   margin: 0;
   width: 100%;
-  height: revert-layer;
-  overflow: unset;
 }
